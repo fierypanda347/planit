@@ -1,0 +1,30 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.logo-div {
+    margin-left: 40px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: white;
+}
+.logo-img, .logo-txt {
+    cursor: pointer;
+}
+.logo-img {
+    height: 50px;
+}
+.logo-txt {
+    transition: 0.2s ease-in;
+}
+.logo-txt:hover {
+    transition: 0.2s ease-in;
+    color: rgb(195, 136, 195);
+}

@@ -2,16 +2,3 @@
     height: 100vh;
     background-color: rgb(48, 48, 63);
 }
-.home-title-box {
-    position: relative;
-    top: 240px;
-    color: white;
-    text-align: center;
-}
-.title {
-    font-size: 90px;
-}
-.sub-title {
-    font-size: 25px;
-    font-weight: normal;
-}
