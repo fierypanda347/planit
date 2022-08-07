@@ -1,0 +1,34 @@
+.pnf-img-div {
+    position: fixed;
+    top: 90px;
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pnf-img {
+    height: 400px;
+}
+.pnf-action-div {
+    cursor: pointer;
+    position: fixed;
+    top: 590px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.pnf-home-button {
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 170px;
+    height: 60px;
+    background-color: rgb(33, 33, 33);
+    border-radius: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}

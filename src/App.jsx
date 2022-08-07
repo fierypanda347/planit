@@ -1,5 +1,5 @@
 import './App.css';
-import { Home, Navbar } from './exporter'
+import { Home, Navbar, PageNotFound } from './exporter'
 import { Routes, Route } from 'react-router-dom';
 
 export default function App() {
@@ -8,6 +8,7 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </div>
   );
